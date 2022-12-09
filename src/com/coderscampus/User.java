@@ -10,10 +10,10 @@ public class User {
 		this.password = values[1];
 		this.name = values[2];
 	}
-
-	public String toString() {
-		return "User [username=" + username + ", password=" + password + ", name=" + name + "]";
-	}
+	// commented out to make User[] unviewable when running program
+	//public String toString() {
+	//	return "User [username=" + username + ", password=" + password + ", name=" + name + "]";
+	//}
 
 	public String getUsername() {
 		return username;
